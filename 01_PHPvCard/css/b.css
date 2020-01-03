@@ -1,0 +1,74 @@
+#main{
+    margin:auto;
+    width:600px;
+    height:650px;
+    border:1px solid #333;
+    border-radius:30px;
+    background:url('blue.jpg');
+    box-shadow: 5px 5px 5px 5px rgba(50, 50, 50, 0.5);
+    margin-top: 5rem;
+    font-family:"微軟正黑體";
+    font-weight:bold;        
+
+}
+.textcenter{
+    text-align:center;
+}
+.card_pic{
+    margin-top:5rem;
+    border-radius: 50%;
+    border:3px solid #fff;
+    height: 200px;
+    width: 200px;
+}
+.title{
+    font-size:20px;
+    color:#fff;        
+}
+.title_name{
+    background-color:#FFCB8C;
+    color:#333;
+    font-size:20px;
+}
+.job{
+    background-color: #FFCB8C;
+    margin:auto;
+    color:#333;
+    width:300px;
+    height:30px;
+    line-height: 30px;
+    border-radius: 5px; 
+}
+.job2{
+    color:#fff;
+}
+.hr {
+     background: linear-gradient(90deg, #80808000, gray, #80808000);
+    height: 1px;
+    width: 80%;
+    border: 0;
+}
+.email,.phone{
+    background:#FFCB8C;
+    border-radius: 10px;
+    height:50px;
+    width:300px;
+    margin:auto;
+    line-height:50px;
+    color:#333;
+}
+.button{
+    border:2px solid #777;
+    border-radius: 20px;
+    width:100px;
+    height:30px;
+    font-size:20px;
+    color:#333;
+    background-color: #FFCB8C;
+    margin:2rem auto;
+    padding:0;
+    display:block;
+}
+.button:hover{
+    background-color: #882222;
+}
